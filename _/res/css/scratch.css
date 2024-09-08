@@ -1,0 +1,22 @@
+display:flex;
+        justify-content: space-between;
+        i:not(.nav-toggle){
+            font-size: 2rem;
+        }
+        ul{
+            display: flex;
+            list-style: none;
+        }
+        ul li{
+            .nav-link{
+                text-decoration: none;
+                color: black;
+                padding-right: 10px;
+                display: block;
+            }
+            .nav-toggle{
+                display:none ;
+            }
+        } 
+
+    }
